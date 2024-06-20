@@ -1,0 +1,22 @@
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    background-color: aliceblue;
+  }
+  .carousel::-webkit-scrollbar {
+    display: none; 
+  }
+  .card{
+    min-width:300px;
+    min-height: 400px;
+    margin:2px;
+    
+    
+    img{
+        height: 350px;
+    }
+    p{
+        height:144px;
+    }
+  }
+
